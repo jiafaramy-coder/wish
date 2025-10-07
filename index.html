@@ -8,20 +8,53 @@
 		.container{ margin: 0 auto; width: 1024px;}
 		.img_circle{border-radius:50%; width: 350px; height: 350px;}
         .img_rounded_corner {border-radius: 20%;}
-        td{  text-align: center; }
+        td{ text-align: center; }
         .large_font { font-size:30px; }
-        .large_font:hover { background-color: black； color: white; }
+        .large_font:hover { background-color: black; color: white; }
         .img_circle:hover{opacity:80%; rotate: 30deg;}
+
+		.navbar {
+		  overflow: hidden;
+		  background-color: #333;
+		  position: fixed;
+		  top: 0;
+		  width: 100%;
+		}
+
+		.navbar a {
+		  float: left;
+		  display: block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		}
+
+		.navbar a:hover {
+		  background: #ddd;
+		  color: black;
+		}
+
 	</style>
 </head>
 <body>
-	
+	<div class="navbar">
+	  <a href="#home">回首頁</a>
+	  <a href="#s1">台中國家歌劇院</a>
+	  <a href="#s2">台中州廳</a>
+	  <a href="#s3">審計新村</a>
+	</div>
+
 	<div class="container">
 		<table>
 			<tr>
 				<td colspan="2">
-				<font class="large_font">台中市景點推薦</font>
-					<image class="img_rounded_corner" src="00.jpeg"
+					<br>
+					<br>
+					<br>
+				<font id="home" class="large_font">台中市景點推薦</font>
+					<img class="img_rounded_corner" src="00.jpeg">
 				</td>
 			</tr>
 			<tr>
@@ -34,7 +67,7 @@
 			</tr>
 			<tr>
 				<td>
-				    <img class="img_circle" src="01.jpeg"> 
+				    <img id="s1" class="img_circle" src="01.jpeg"> 
 			    </td>   
 				<td style="padding-right: 50px;">
 					<font class="large_font">台中國家歌劇院</font><br>
@@ -55,12 +88,12 @@
 			        所在位置：台中市西區民權路99號
 				</td>
 				<td>
-					<image class="img_circle" src="02.jpeg">
+					<image id="s2"class="img_circle" src="02.jpeg">
 				</td>
 			</tr>
 			<tr>
 				<td>
-				  <image class="img_circle" src="03.jpeg">	
+				  <image id="s3"class="img_circle" src="03.jpeg">	
 				</td>
                 <td style="padding-right: 50px;">
 					<font class="large_font">審計新村</font><br>
@@ -71,6 +104,23 @@
                     所在位置：台中市西區民生路368巷
  				</td>
 			</tr>
+
+			<tr>
+				<td colspan="2">
+					<br>
+					<br>
+					<br>
+					<br>
+					<iframe src="https://www.google.com/maps/d/embed?mid=1lVNJR1ITG-BOB1doxggDvX7tas6N_SA&ehbc=2E312F" width="900" height="600"></iframe>
+					<br>
+					<br>
+					<br>
+					<br>
+
+				</td>
+			   </tr>
+
+
 			<tr>
 				<td colspan="2">
 					<div style="width: 1024px;height:50px; line-height: 50px; background-color: black; color:white;">觀三A 陳思妤 copyright Reserved 2025</div>
